@@ -1,0 +1,7 @@
+
+
+Misdemeanor Summons
+1. Run PBK report event listing report (FLWAR) or warrant generated for the month in question 
+2. Add a Month column indicating what Month we are interested in 
+3. Save the file as a csv file in WarrantApp generated folder
+
