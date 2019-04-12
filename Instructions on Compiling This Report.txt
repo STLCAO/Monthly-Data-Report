@@ -1,7 +1,16 @@
+Step 1 Get the Data to run the CleanFiles.R file
+1.Run the legal inquiry in PBK for the month of interest, and a column to that csv indicating the month and and save it in the RawData folder. 
+2. Next Run the cleanFiles.R file
 
 
 Misdemeanor Summons
-1. Run PBK report event listing report (FLWAR) or warrant generated for the month in question 
+1. Run PBK report event listing report (FLWAR) or warrant generated for the month in question +also run the report for the current months (example, run the april FLWAR report when we are
+still interested in March)- This camptures warrants that may have been issued at a later stage
 2. Add a Month column indicating what Month we are interested in 
 3. Save the file as a csv file in WarrantApp generated folder
+
+DE Felonies
+
+1. Run PBK report charge inquiry report for for the given month inputted in the Referral Date and Case Status click everything excelp REFUSED-Click Severity F and Class D AND E
+2. Add a month column and type the month and Save that file in the DEFelonies folder 
 
